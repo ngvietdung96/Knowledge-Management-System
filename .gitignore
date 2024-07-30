@@ -1,0 +1,6 @@
+# Folder, file using by obsidian
+.obsidian/*
+.trash/*
+
+# Personal Document source
+03_FilesSource/*
