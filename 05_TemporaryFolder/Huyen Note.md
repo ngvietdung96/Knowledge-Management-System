@@ -1,0 +1,28 @@
+- Junior Software Engineer:
+	- Chien Trang:
+		- Able to propose solution with a PoC and transfer that idea to the whole team in clearly way
+		- Learn Clean code, Design Pattern. Craft code that meets our internal standards for style, maintainability, and best practices for a high-scale web environment. Maintain and advocate for these standards through code review.
+	- Linh To:
+		- Commnicate in Eng fluently, Write with Pre-intermediate level
+		- Able to propose solution and transfer that idea to the whole team in clearly way
+	- Duc Nguyen:
+		- Commnicate in Eng fluently, Write with Pre-intermediate level
+		- Able to propose solution and transfer that idea to the whole team in clearly way
+		- Learn how to comminucate within team fluently, learn how to give feedback for better growth
+- Middle Software Engineer:
+	- Hieu Bui:
+		- Commnicate in Eng fluently, Write with Pre-intermediate level
+		- Propose and solve technical problems of moderate scope and complexity.
+		- Design a Solution architecture for KS
+		- Represent KS and its values in cross department communication around specific projects and community contributions.
+	- Huyen Nguyen:
+		- Design a Solution architecture for TM
+		- Advocate for improvements to product quality, security, and performance.
+		- Represent GitLab and its values in public communication around specific projects and community contributions.
+		- Get AWS license
+		- Learn about Securiy
+- Senior Software Engineer:
+	- Tri Le:
+		- Design a Solution architecture for TM
+		- Able to propose solution with a PoC and transfer that idea to the whole team in clearly way
+		- Represent KS and its values in cross department communication around specific projects and community contributions.
