@@ -26,6 +26,10 @@ boot default == run 'bootcmd'
 
 
 
+![[BuildUboot.png]]
+
+
+
 
 
 

@@ -19,7 +19,7 @@ Youtube:
 ---
 
 
-**Drawing note of DeviceTree:** [[Drawing_DeviceTree]]
+**Drawing note of DeviceTree:** [[Drawing_Linux_DeviceTree]]
 # The DeviceTree Specification
 [Wiki Device tree](https://en.wikipedia.org/wiki/Devicetree)
 [Official website](https://www.devicetree.org/)
