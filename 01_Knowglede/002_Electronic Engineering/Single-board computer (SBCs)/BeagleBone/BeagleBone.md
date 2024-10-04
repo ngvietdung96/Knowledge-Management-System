@@ -22,25 +22,26 @@ https://www.beagleboard.org/boards/seeedstudio-beaglebone-green-gateway
 **Fully Compatible with BeagleBone® Black and Seeed Studio BeagleBone® Green**
 **Connectivity**
 
-| Item                   | Value                                                                                                           |                                                                   | Chip             |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------- |
-| Processor              | AM3358 1GHz ARMR Cortex-A8                                                                                      |                                                                   |                  |
-| RAM                    | 512MB DDR3                                                                                                      |                                                                   |                  |
-| on-board Flash Storage | 4GB eMMC                                                                                                        | MMC1                                                              | EMMC04G-M627     |
-| SD card                |                                                                                                                 | MMC0                                                              | EMIF06-MSD02N16  |
-| CPU Supports           | NEON floating-point & 3D graphics accelerator                                                                   |                                                                   |                  |
-| Micro USB Supports     | Powering & Communications                                                                                       | USB0                                                              |                  |
-| Ethernet               | USB to 1 Ethernet and 2 USB, EEPROM<br>nLNKA_LED<br>nSPD_LED                                                    | USB1<br>                                                          | 93LC66AT-I/OT    |
-| USB                    | USB 2.0 Host x2                                                                                                 |                                                                   | 93LC66AT-I/OT    |
-| EEPROM                 | 128 * 16 = 2048 bytes                                                                                           |                                                                   | Optional         |
-| Wireless Connectivity  | Wi-Fi 802.11b/g/n 2.4GHz                                                                                        | MMC2                                                              | WL1835MODGBMOC   |
-|                        | Bluetooth 4.1 LE                                                                                                | UART3                                                             | WL1835MODGBMOC   |
-| Operating Temperature  | 0 ~ 70                                                                                                          |                                                                   |                  |
-| Buttons                | S3: RESET <br>S1: POWER <br>S2: BOOT                                                                            | <br><br>LCD_DATA2                                                 | <br><br>SYSBOOT2 |
-| LED                    | LED4: USR0<br>LED5: USR1<br>LED6: USR2<br>LED7: USR3<br>LED1: 3V3<br>LED2: BT_EN<br>LED3: WLAN_EN<br>LED8: WLAN | GPMC_A5<br>GPMC_A6<br>GPMC_A7<br>GPMC_A8<br><br><br><br>MII1_RXD0 |                  |
-| GPIO                   | 2 x 46 pin headers                                                                                              |                                                                   |                  |
-| Operating Temperature  | 0 ~ 70                                                                                                          |                                                                   |                  |
-|                        |                                                                                                                 |                                                                   |                  |
+| Item                   | Value                                                                                                           |                                                                   | Chip             |     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ---------------- | --- |
+| Processor              | AM3358 1GHz ARMR Cortex-A8                                                                                      |                                                                   |                  |     |
+| RAM                    | 512MB DDR3                                                                                                      |                                                                   |                  |     |
+| on-board Flash Storage | 4GB eMMC                                                                                                        | MMC1                                                              | EMMC04G-M627     |     |
+| SD card                |                                                                                                                 | MMC0                                                              | EMIF06-MSD02N16  |     |
+| CPU Supports           | NEON floating-point & 3D graphics accelerator                                                                   |                                                                   |                  |     |
+| Micro USB Supports     | Powering & Communications                                                                                       | USB0                                                              |                  |     |
+| Ethernet               | USB to 1 Ethernet and 2 USB, EEPROM<br>nLNKA_LED<br>nSPD_LED                                                    | USB1<br>                                                          | 93LC66AT-I/OT    |     |
+| USB                    | USB 2.0 Host x2                                                                                                 | USB1                                                              | 93LC66AT-I/OT    |     |
+| EEPROM                 | 128 * 16 = 2048 bytes                                                                                           |                                                                   | Optional         |     |
+| Wireless Connectivity  | Wi-Fi 802.11b/g/n 2.4GHz                                                                                        | MMC2                                                              | WL1835MODGBMOC   |     |
+|                        | Bluetooth 4.1 LE                                                                                                | UART3                                                             | WL1835MODGBMOC   |     |
+| Debug                  |                                                                                                                 | UART0                                                             | SN74LVC2G241DCUR |     |
+| Operating Temperature  | 0 ~ 70                                                                                                          |                                                                   |                  |     |
+| Buttons                | S3: RESET <br>S1: POWER <br>S2: BOOT                                                                            | <br><br>LCD_DATA2                                                 | <br><br>SYSBOOT2 |     |
+| LED                    | LED4: USR0<br>LED5: USR1<br>LED6: USR2<br>LED7: USR3<br>LED1: 3V3<br>LED2: BT_EN<br>LED3: WLAN_EN<br>LED8: WLAN | GPMC_A5<br>GPMC_A6<br>GPMC_A7<br>GPMC_A8<br><br><br><br>MII1_RXD0 |                  |     |
+| GPIO                   | 2 x 46 pin headers                                                                                              |                                                                   |                  |     |
+| Operating Temperature  | 0 ~ 70                                                                                                          |                                                                   |                  |     |
+|                        |                                                                                                                 |                                                                   |                  |     |
 ### Boot option
 
 ![[BeagleBoneGateway_SYSBOOT0..15_SwitchS2.png]]
@@ -48,6 +49,13 @@ https://www.beagleboard.org/boards/seeedstudio-beaglebone-green-gateway
 
 SYSBOOT[4:0] = 11100b - Boot button released (eMMC/SDcard/UART0/microUSB)
 SYSBOOT[4:0] = 11000b - Boot button pressed (SPI0/SDcard/microUSB/UART0)
+
+
+### Boot from mirco SD card (MMC0)
+
+
+### Boot from microUSB (USB0)
+
 
 
 ### Boot from UART0 (debug uart port)

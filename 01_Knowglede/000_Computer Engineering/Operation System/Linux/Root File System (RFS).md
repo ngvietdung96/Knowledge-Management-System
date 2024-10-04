@@ -1,8 +1,6 @@
 
 # About RFS
 
-In this lecture let’s discuss about the Root File System(RFS) and its directory structure. 
-
 Later videos in this course will show you how you can create your own root file system by using **busybox and buildroot** and we can also test it on the hardware. 
 
 Now the root file system, as the name indicates, it’s a file system which Linux mounts to the "/" (root)

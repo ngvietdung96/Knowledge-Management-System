@@ -1,6 +1,6 @@
 Tag: #SecondBrain 
 Status: #open 
-Related:
+Related: [[Cross Compiler]], [[Linux]], [[Device tree]], [[Root File System (RFS)]]
 
 ---
 **Das U-Boot** (often shortened to U-boot) is an [[Open Source]] [[Bootloader]] used in [[Embedded Engineering | embedded device]] to perform various low-level HW initialization tasks and boot the device's operation system kernel. 
@@ -18,34 +18,47 @@ Regardless of whether the SPL is used, U-Boot performs both first-stage and seco
 >Second-stage: Performing multiple steps to load a modern operating system from a variety of devices that must be configured, presenting a menu for users to interact with and control the boot process, etc
 
 
+![[BuildUboot.png]]
+
+
 ## U-boot Command
 Uboot alway try to read the ''uEnv.txt'' from the boot source, if file is not founded, it will use the default values of the "'env'" variables.
 
 boot default == run 'bootcmd'
 
 
+U-boot transition to Linux need below information:
+- address of Linux kernel image
+- address of [[Device tree]]
+- Information of logging HW (UART, or USB)
+- location of [[Root File System (RFS)]]
 
 
-![[BuildUboot.png]]
+Uboot Linux Image header
+
+UImage = Uboot header + ZImage
 
 
+U-boot --> Bootstrap loader
 
+Uboot 
+	bootm.c
+		boot_jump_linux call --> kernel_entry(0, machid, r2); 
+			kernel_entry is pointer at address of Linux kernel
+			r2 is address of Flattened Device Tree blob (fdb)
 
+Bootstrap loader
+	head.S  (/arch/arm/boot/compressed/head.s)
+		Start: --> call decompress_kernel()
+	misc.c
+		decompress_kernel() --> head.S
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Linux Kernel
+	head.S  (/arch/arm/kernel/head.S) --> head-common.S
+	head-common.S  (/arch/arm/kernel/head-common.S) --> start_kernel(void)
+	main.c 
+		start_kernel(void) -- rest_init(void)
+		rest_init(void) --> start thread "kernel_init" and "kthreadd" --> start scheduler
 
 
 
