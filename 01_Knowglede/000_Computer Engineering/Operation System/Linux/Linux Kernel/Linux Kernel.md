@@ -32,6 +32,8 @@ https://www.kernel.org/doc/html/v4.15/dev-tools/kgdb.html
 ## Kconfig / kbuild
 https://opensource.com/article/18/10/kbuild-and-kconfig
 
+## BUILED KERNEL
+
 
 
 
