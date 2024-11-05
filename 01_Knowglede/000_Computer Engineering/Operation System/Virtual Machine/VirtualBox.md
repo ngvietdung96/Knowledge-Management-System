@@ -14,7 +14,9 @@ sudo mount -t vboxsf mHostShare ~/shared
 ```
 
 
-
+```
+sudo usermod -aG sudo <username>
+```
 
 ---
 # References
