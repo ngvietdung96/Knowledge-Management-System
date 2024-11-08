@@ -19,6 +19,10 @@ Channel:
 The Signal Path (TSP): https://www.youtube.com/@Thesignalpath
 - The Signal Path (TSP) is a science & electrical engineering video blog for industry professionals, students and hobbyists. TSP is a non-for-profit website dedicated to provide free education spanning a wide range of electrical engineering & science topics. Equipment reviews, tutorials and repair videos are posted regularly.
 
+
+# Basic Electronic
+![](https://www.youtube.com/watch?v=9IOTAZD4OaM)
+
 ---
 # Reference
 

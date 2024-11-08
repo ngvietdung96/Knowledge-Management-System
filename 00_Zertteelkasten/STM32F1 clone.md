@@ -5,7 +5,7 @@ Status: #open
 ---
 # STM32F1 (on Blue pill board)clone
 
-[[01_Knowglede/000_Computer Engineering/Microcontroller/STM/STM|STM32F1]] microcontroller in [[Blue pill]] board clone from [[China]] is more popular right now, with cheap and various variants.
+[[01_Knowglede/000_Computer Engineering/Microcontroller/STM/STM|STM32F1]] microcontroller in [[STM32_Blue pill]] board clone from [[China]] is more popular right now, with cheap and various variants.
 
 
 ---

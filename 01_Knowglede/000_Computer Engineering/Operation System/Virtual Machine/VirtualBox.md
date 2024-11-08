@@ -9,8 +9,14 @@ Related: [[Open Source]], [[Virtualization]], [[Virtual Machine]]
 Mounting share folder between Host and Virtual machine Linux:
 https://gist.github.com/estorgio/0c76e29c0439e683caca694f338d4003
 
+```
+sudo mount -t vboxsf mHostShare ~/shared
+```
 
 
+```
+sudo usermod -aG sudo <username>
+```
 
 ---
 # References
