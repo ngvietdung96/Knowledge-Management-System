@@ -5,6 +5,8 @@ Related:
 ---
 # Home Server
 
+OS:
+truenas-scale
 
 
 

@@ -5,7 +5,8 @@ Related: [[Operation System]], [[UNIX]], [[RISC-V]]
 
 ---
 # xv6 Kernel
-
+A study OS build for learning and understand basic concept about kernel. 
+Run on RISC emulation.
 
 **Introduction:**
 ![](https://www.youtube.com/watch?v=ktkAlbcoz7o)
