@@ -9,7 +9,7 @@
 
 [Embedded system channel (example, and quite new)](https://www.youtube.com/@artfulbytes)
 # Certificate
-[[iSAQB|The International SW Architecture Qualification board (iSAQB)]]
+[[SW Architecture Fundamentals|The International SW Architecture Qualification board (iSAQB)]]
 
 
 

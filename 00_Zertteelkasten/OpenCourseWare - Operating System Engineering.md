@@ -4,7 +4,7 @@ Status: #open
 Related: [[Operation System]]
 
 ---
-# MIT Course - Operating System Engineering
+# OpenCourseWare - Operating System Engineering
 
 https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/
 

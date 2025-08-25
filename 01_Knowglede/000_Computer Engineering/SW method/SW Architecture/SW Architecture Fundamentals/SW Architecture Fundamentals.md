@@ -8,10 +8,10 @@ ___
 # 2. Software Architecture Fundamentals
 
 **What is Software-intensive system:**
-**System.** A collection of component organized to accomplish a specific function or set of functions. [IEEE 610.12-1990, p. 73]
+**System.** A collection of component organized to accomplish a specific function or set of functions. [IEEE 610.12-1990, p. 73](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf)
 
 **Software.** Computer programs, procedures, and possibly associated documentation and data pertaining to operation of a computer system. 
-[IEEE 610.12-1990, p. 66]
+[IEEE 610.12-1990, p. 66](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf)
 
 A **Software-intensive system** is a collection of building blocks that are organized in such way that they together accomplish the purpose of the system. Building block of such a system that entirely of for the most part consist of software carry out essential task for achievement of the purpose of the system. The software element of the system consists of a collection of programs, procedures, data, and associated documentation.
 
