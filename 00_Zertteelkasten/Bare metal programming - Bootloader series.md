@@ -1,7 +1,7 @@
 Date: 2023-12-25, 21:21
 Tags: #idea
 Status: #open, #unprocessed 
-Related: [[Bootloader]], [[Secure Boot]], [[Microcontroller]], [[ARM]], [[libopencm3]]s
+Related: [[Bootloader]], [[Secure Boot]], [[Microcontroller]], [[ARM]], [[libopencm3]]
 
 ---
 # Bare metal programming - Bootloader series

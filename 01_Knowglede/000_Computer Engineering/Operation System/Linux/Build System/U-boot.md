@@ -62,10 +62,50 @@ Linux Kernel
 
 
 
-## Build U-boot
+## Build and deployment U-boot
 
-	
+| File        | Description                                                                                                  |
+| ----------- | ------------------------------------------------------------------------------------------------------------ |
+| u-boot      | elf file format, use for debug.                                                                              |
+| u-boot.bin  | Executable file run on the machine                                                                           |
+| u- boot.img | .bin file with header                                                                                        |
+| u-boot.srec | Executable file in Motorola S-record is a file format, use for over serial connection (same with hex format) |
+| MLO         | Secondary Program Loader (SPL) - option                                                                      |
 
+Boot from USB, SD card, or eMMC :
+Create 2 partitions:
+1. Type FAT32, mount as "boot"
+2. Type ext4, mount as "rootfs"
+### QEMU
+#### QEMU for ARM architecture
+**Environment for compiler:**
+	`ARCH=arm`
+	`CROSS_COMPILE=arm-none-eabi- or arm-linux-gnueabihf-`
+**Build cmd**: `make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-`
+
+#### QEMU for aarch64 architecture
+**Environment for compiler:**
+	`ARCH=arm64`
+	`CROSS_COMPILE=aarch64-linux-gnu-`
+**Build cmd**: `make ARCH=arm CROSS_COMPILE=aarch64-linux-gnu-`
+
+#### Deploy on machine:
+List all machine support:
+	cmd: `qemu-system-arm -M ?`
+Virtual machine:
+	cmd: `qemu-system-arm -M virt -nographic -no-reboot -bios <u-boot.bin>`
+Other machine:
+	https://lnxblog.github.io/2019/02/17/uboot-arm-qemu.html
+
+
+
+Example boot to  binary echo hello world :) 
+[https://lnxblog.github.io/2019/02/17/uboot-arm-qemu.html](https://lnxblog.github.io/2019/02/17/uboot-arm-qemu.html)[https://github.com/hhdang6637/embedded_linux_skeleton/blob/master/qemu_scripts/QEMU_command.txt](https://github.com/hhdang6637/embedded_linux_skeleton/blob/master/qemu_scripts/QEMU_command.txt)
+[https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu](https://interrupt.memfault.com/blog/emulating-raspberry-pi-in-qemu)
+[https://unix.stackexchange.com/questions/747464/testing-u-boot-on-qemu-arm64-virtual-machine](https://unix.stackexchange.com/questions/747464/testing-u-boot-on-qemu-arm64-virtual-machine)
+[https://ubuntu.com/server/docs/boot-arm64-virtual-machines-on-qemu](https://ubuntu.com/server/docs/boot-arm64-virtual-machines-on-qemu)
+
+Document: u-boot/doc/board/emulation/qemu-arm.rst
 
 
 ---
