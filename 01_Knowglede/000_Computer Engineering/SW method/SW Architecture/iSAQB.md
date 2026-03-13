@@ -28,9 +28,24 @@ The advanced Expert Level focuses on three distinct areas of expertise: solving 
 
 Source <https://www.reddit.com/r/softwarearchitecture/comments/vwlpbb/isaqb_cpsa_certification_software_architecture/>
 
+### Maintaining improvement and document
+
+**website:**
+https://public.isaqb.org/
+
+github for 'isaqb-org.github.io/'
+https://github.com/isaqb-org
+
+
+### Mock Test
+
+Online Mock Test:
+https://www.itexams.com/exam/CPSA-F
+https://www.certlibrary.com/exam/CPSA-F
 
 ---
 # References
 Official website: https://www.isaqb.org/
 Wikipedia:
 Youtube: https://www.youtube.com/@isaqbev/playlists
+Book: recommendation - https://www.isaqb.org/certifications/literature/

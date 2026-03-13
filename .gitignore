@@ -1,6 +1,7 @@
 # Folder, file using by obsidian
 .obsidian/*
 .trash/*
+__IGNORE_
 
 # Personal Document source
 03_FilesSource/Documents/*

@@ -16,7 +16,7 @@ Distribute Version Control and source code management system.
 Youtube channel: https://www.youtube.com/@JacobSorber/playlists
 Solid channel of interesting less popular topic in embedded: 
 	Make file: 
-	Debugging:
+	Debugging GDB introduce:
 	![](https://www.youtube.com/watch?v=mfmXcbiRs0E&list=PL9IEJIKnBJjHGWPN_S9NS_Ky1-tC8ZrUI&pp=iAQB)
 	Memory issues:
 	![](https://www.youtube.com/watch?v=P6oqhAxV0dA&list=PL9IEJIKnBJjGAINguks7wyq7TAnHOZGRl&pp=iAQB)

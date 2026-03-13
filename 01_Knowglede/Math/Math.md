@@ -5,8 +5,17 @@ Related:
 ---
 # Math
 
-Channel Youtube: https://www.youtube.com/@3blue1brown
+[[Caculus]]
 
+
+
+Channel Youtube: 
+https://www.youtube.com/@3blue1brown
+https://www.youtube.com/@braintruffle
+
+
+Tools:
+[[Manim]]
 
 
 

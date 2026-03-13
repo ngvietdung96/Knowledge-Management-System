@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"07f6b8f5ef2f4280","type":"text","text":"PARITIES (== equal)","x":-920,"y":-3960,"width":225,"height":50},
+		{"id":"805be65b479dc6f2","type":"file","file":"01_Knowglede/005_Economic/Marco economic/Theory/Interest Rate Parity (IRP).md","x":-561,"y":-2640,"width":580,"height":400},
+		{"id":"0aa5b1ed7ce5a04d","type":"text","text":"Uncovered Interest Rate Parity (UIRP)\n- If [[Forward rate]] contract not available or capital flows restricted --> ","x":-511,"y":-3110,"width":480,"height":180},
+		{"id":"b7af4a6c6f8c4a87","type":"file","file":"01_Knowglede/005_Economic/Marco economic/Infation/Inflation.md","x":1800,"y":-2400,"width":400,"height":400},
+		{"id":"4470310a4543fcfc","type":"file","file":"01_Knowglede/005_Economic/Marco economic/Interest rate/Exchange rate.md","x":520,"y":-3220,"width":480,"height":400},
+		{"id":"5f3b26e7ad35d56f","type":"file","file":"01_Knowglede/005_Economic/Marco economic/Interest rate/Forward rate.md","x":520,"y":-2400,"width":480,"height":400},
+		{"id":"f1b837462bebd381","x":520,"y":-1860,"width":480,"height":180,"type":"text","text":"FDI invest to VN in 1 year, expect 10% return.\n- Exchange USD to VND\n- After 1 year, Exchange VND to USD"},
+		{"id":"6de628b5cd7de453","x":520,"y":-1560,"width":480,"height":240,"type":"text","text":"Hedging Fw rate\n- Benefit: No risk [[Exchange rate]]\n- Cost: Fw rate\n\nActual: Saving rate - TT1, Hedging FW rate - TT2 (interbank)\nwhen TT2 rate < TT1 rate => arbitrage happen"},
+		{"id":"06cc8cae45c4434e","type":"text","text":"Cover Interest Rate Parity (CIRP)\n- [[Spot rate]] is NO arbitrage with [[Forward rate]].\n- Forward discount / premium exactly offset [[Interest rate]] differennces.","x":-561,"y":-1980,"width":580,"height":180},
+		{"id":"c138f1c4eb11c498","type":"text","text":"International Fisher Affect\n- Real interest assumed to converge across markets\n- If (Free capital flow) --> (Fund move to higher (nominal) rates) --> (Difference with expectation Real Inflation)","x":1240,"y":-3110,"width":560,"height":180},
+		{"id":"defe23950f1fd7d7","x":520,"y":-3880,"width":480,"height":400,"type":"file","file":"01_Knowglede/005_Economic/Marco economic/Interest rate/Interest rate.md"},
+		{"id":"40891d74038946f1","x":1204,"y":-3692,"width":536,"height":212,"type":"text","text":"Interest rate is BIGGEST driver to [[Exchange rate]]\n- And Exchange rate is price in very soon \n\t(due to expectation early in Central bank)\n- Intermarket Analysis  by Murphy"}
+	],
+	"edges":[
+		{"id":"cc820cce2fccf13c","fromNode":"06cc8cae45c4434e","fromSide":"right","toNode":"5f3b26e7ad35d56f","toSide":"left"},
+		{"id":"bb3100fb98b0ffdd","fromNode":"0aa5b1ed7ce5a04d","fromSide":"right","toNode":"4470310a4543fcfc","toSide":"left"},
+		{"id":"eafe5c63abed77f1","fromNode":"4470310a4543fcfc","fromSide":"right","toNode":"c138f1c4eb11c498","toSide":"left"},
+		{"id":"157115a89c44d4c7","fromNode":"c138f1c4eb11c498","fromSide":"right","toNode":"b7af4a6c6f8c4a87","toSide":"left"},
+		{"id":"e4e25198bbf8e4ff","fromNode":"805be65b479dc6f2","fromSide":"bottom","toNode":"06cc8cae45c4434e","toSide":"top"},
+		{"id":"03f7a481b0af2c59","fromNode":"805be65b479dc6f2","fromSide":"top","toNode":"0aa5b1ed7ce5a04d","toSide":"bottom"},
+		{"id":"890d8176b4ee2b26","fromNode":"f1b837462bebd381","fromSide":"bottom","toNode":"6de628b5cd7de453","toSide":"top"},
+		{"id":"ea64fe9f25c0654e","fromNode":"defe23950f1fd7d7","fromSide":"bottom","toNode":"4470310a4543fcfc","toSide":"top"}
+	]
+}

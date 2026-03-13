@@ -11,3 +11,7 @@
 # Knowledge System Management | Second brain
 
 [[Obsidian]]
+
+
+https://github.com/logseq/logseq
+Simple Open source, same with [[Obsidian]]

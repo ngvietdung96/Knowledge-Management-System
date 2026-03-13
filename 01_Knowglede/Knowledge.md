@@ -16,7 +16,7 @@ Tag: #MapOfContents
 
 # Finance
 
-[[01_Knowglede/005_Finanace/Finance]]
+[[Finance]]
 
 
 # Reference 
