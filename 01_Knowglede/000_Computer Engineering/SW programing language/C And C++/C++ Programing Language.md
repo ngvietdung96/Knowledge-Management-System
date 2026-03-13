@@ -1,12 +1,6 @@
 
 Traditional textbooks teaching the basic of a given programming language, but they often do not cover relevant programming topic (programming style, debugging, testing, common pitfall). 
 --> This free website is quite perfect to learning program in C++: https://www.learncpp.com/.
-
-
-
-
-
-
 - Basic syntax
 - Function and File
 - Control flow and Error handling

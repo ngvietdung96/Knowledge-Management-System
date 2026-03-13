@@ -36,17 +36,11 @@ Following coding standards can help to improve the quality, readability, and mai
 
 
 Coding standards are a set of guidelines and rules that developers follow to maintain consistency in code style, structure, and formatting. These standards help ensure that code is easy to read, debug, and maintain, regardless of who wrote it. Here are some benefits of having coding standards:
-
 1. Consistency: Coding standards help maintain consistency in code style and structure throughout the project. This ensures that any developer can easily understand and work on the codebase.
-    
 2. Code maintainability: Well-documented code with proper naming conventions and commenting makes it easier for developers to maintain and update the code, reducing the risk of errors and bugs.
-    
 3. Collaboration: Standardized coding practices make collaboration between developers more efficient by reducing time spent on resolving coding style differences.
-    
 4. Code quality: A well-maintained codebase helps reduce technical debt and improve overall code quality.
-    
 5. Scalability: Coding standards make it easier to scale projects by making sure that new code adheres to the same standards as existing code.
-    
 
 Overall, coding standards are essential for maintaining high-quality code that is easy to read, maintain, and scale.
 
@@ -54,16 +48,10 @@ Overall, coding standards are essential for maintaining high-quality code that i
 Cert C and MISRA are two different coding standards that provide guidelines for software development in the C and C++ programming languages. Although they share some similarities, there are also a number of differences between the two.
 
 Here are some of the key differences between Cert C and MISRA:
-
 1. Scope: Cert C is a general-purpose coding standard that covers the secure coding practices in C language, while MISRA guidelines are specifically focused on embedded software developed for safety-critical systems in the automotive industry.
-    
 2. Philosophy: Cert C focuses more on preventing security vulnerabilities in code, such as buffer overflows and integer overflows, whereas MISRA guidelines emphasize writing reliable and safe code with specific considerations for embedded systems.
-    
 3. Rule sets: Cert C has a smaller set of rules compared to MISRA. Cert C includes 215 rules while MISRA comprises significantly more (around 600 rules).
-    
 4. Compliance: While compliance with both standards is often mandatory in certain industries, MISRA might be more strictly enforced in the automotive industry, where it is widely adopted as an industry-wide standard.
-    
 5. Version control: Cert C has only one version available in the market, while MISRA has multiple versions available, including MISRA C:1998, MISRA C:2004, and MISRA C:2012.
-    
 
 In summary, both Cert C and MISRA are important coding standards that aim to improve the quality, reliability, and safety of software in C and C++. They have different scopes and philosophies, but ultimately, they share the same goal of promoting good coding practices and reducing errors in software development.

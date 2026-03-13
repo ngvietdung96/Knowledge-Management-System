@@ -18,7 +18,7 @@ Skill need for Embedded System Development:
 	[[Microcontroller]]
 	[[Protocol (Computer Engineering)]]
 	
-[[Reverse Engineering]]
+[[01_Knowglede/000_Computer Engineering/Reverse Engineering]]
 
 [[01_Knowglede/001_Computer Science/Computer Science]]
 # Operation System

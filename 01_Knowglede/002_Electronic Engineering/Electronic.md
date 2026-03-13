@@ -29,3 +29,7 @@ The Signal Path (TSP): https://www.youtube.com/@Thesignalpath
 [lithium battery charge 7:44](https://www.youtube.com/watch?v=fUdlfc1nJcY)
 
 [Youtube channel about electronic component (The Engineering Mindset)](https://www.youtube.com/@EngineeringMindset/videos)
+
+
+
+Phương pháp phân tích mạch

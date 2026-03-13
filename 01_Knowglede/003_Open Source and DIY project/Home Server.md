@@ -9,7 +9,8 @@ OS:
 truenas-scale
 
 
-
+VM working on TrueNas:
+https://www.reddit.com/r/truenas/comments/1cc9ooe/quick_guide_to_get_win_11_vm_working_on_truenas/
 
 
 

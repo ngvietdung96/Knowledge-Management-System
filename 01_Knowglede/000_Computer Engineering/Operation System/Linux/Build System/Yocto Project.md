@@ -5,7 +5,7 @@ Related: [[Linux]]
 ---
 ## History & Organization:
 The Yocto Project is a [Linux Foundation](https://en.wikipedia.org/wiki/Linux_Foundation) collaborative [open source](https://en.wikipedia.org/wiki/Open-source_software) project whose goal is to produce tools and processes that enable the creation of [Linux distributions](https://en.wikipedia.org/wiki/Linux_distribution) for [embedded and IoT software](https://en.wikipedia.org/wiki/Embedded_software) that are independent of the underlying architecture of the embedded hardware.
-The project was announced by the Linux Foundation in 2010 and launched in March, 2011, in collaboration with 22 organizations, including [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded).[[1]](https://en.wikipedia.org/wiki/Yocto_Project#cite_note-1)
+The project was announced by the Linux Foundation in 2010 and launched in March, 2011, in collaboration with 22 organizations, including [OpenEmbedded](https://en.wikipedia.org/wiki/OpenEmbedded).
 From <[https://en.wikipedia.org/wiki/Yocto_Project](https://en.wikipedia.org/wiki/Yocto_Project)>
 
 

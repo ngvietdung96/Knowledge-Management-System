@@ -6,7 +6,19 @@ ___
 # 1. Introduction
 
 # 2. Software Architecture Fundamentals
+## 2.1 Learning goal
+- [ ] LG1-1: Discuss definitions of software architecture 
+- [ ] LG1-2: Understand and identify the benefits and objectives of software architecture 
+- [ ] LG1-3: Understand software architecture as part of the software lifecycle 
+- [ ] LG1-4: Understand software architects’ tasks and responsibilities LG1-5:Relate the role of software architects to other stakeholders 
+- [ ] LG1-6: Ability to explain the correlation between development approaches and software architecture 
+- [ ] LG1-7: Differentiate between architecture and project objectives 
+- [ ] LG1-8: Distinguish between explicit statements and implicit assumptions 
+- [ ] LG1-9: Know roles and responsibilities of software architects in an organizational context 
+- [ ] LG1-10: Understand the differences between types of IT systems
 
+
+## 2.2 Software-intensive systems and software architecture
 **What is Software-intensive system:**
 **System.** A collection of component organized to accomplish a specific function or set of functions. [IEEE 610.12-1990, p. 73](https://www.informatik.htw-dresden.de/~hauptman/SEI/IEEE_Standard_Glossary_of_Software_Engineering_Terminology%20.pdf)
 
@@ -31,20 +43,21 @@ A **Software-intensive system** is a collection of building blocks that are orga
 
 **Note**: With increasing networking of system, software-intensive system exits that cannot be assigned to merely one category.
 
+**TODO:** 
 The importance of SWA for SW-intensive system ???
 
 ### 2.3.1 What is Software Architecture
 
 There is no single, universally accepted definition of SWA.
 
-[iSAQB]
+[[iSAQB]]
 The Software Architecture **defines** the fundamental **principle** and **rules** for the organization of a system and its **structure into building blocks and interfaces**, and their **relationships to each other and to the surrounding environment**. 
 It thus defines **guidelines** for the entire **software lifecycle**, the **developer**, and the **software's operator**, from **analysis via design and implementation** to **operation** and **enhancement**. 
 
 ### 2.3.2 Building blocks, interfaces, and configuration
 
 An interface represent a well-define access point to the system or its building blocks.
-In this context, an interface describles the characteristics, (for example, attributes, data, functions) of this access point. The objective is to define these characteristics as percisely as possible with all the necessary aspects, such as syntax, data structures, functional behavior, error behavior, non-functional characteristics, the interface usage log, technologies, protocols, access modifier, file format, conditions/constraints, and semantics.
+In this context, an interface describes the characteristics, (for example, attributes, data, functions) of this access point. The objective is to define these characteristics as percisely as possible with all the necessary aspects, such as syntax, data structures, functional behavior, error behavior, non-functional characteristics, the interface usage log, technologies, protocols, access modifier, file format, conditions/constraints, and semantics.
 
 
 ![[Figure2_4-ExampleOfBuildingBlock.png]]
@@ -65,7 +78,7 @@ Building block are also the unit of hierarchical (de)composition pf a software-i
 
 ![[Figure2_8-WhoDefinesTheInterfaceAndAgrement.png]]
 
-### 2.3.3 Concepts for descripbing software architectures
+### 2.3.3 Concepts for describing software architectures
 
 An architecture is only of limit use if it is not documented. only an appropriately document architecture can be sustainably communicated, discussed, and further developed.
 
@@ -77,7 +90,9 @@ Customer and users can also become involved in architecture decisions that affec
 ![[Figure2_11-ConceptualModelForDescriptionsOfSWA.png]]
 
 
-#### Note: Need to revisit this section for more deep down (Architecture viewpoint, architecture view) ???
+**TODO:**
+ - [ ] Need to revisit this section for more deep down (Architecture viewpoint, architecture view) ???
+- Application / Domain - driven environment, constrain, quality requirement and rational
 
 ### 2.3.4 Architectural description and architectural levels
 
@@ -110,6 +125,8 @@ Follow ISO Standard 25010 [ISO/IEC 25010], in which high-level quality character
 - Compatibility
 - Portability
 
+**Note:**
+Some still use "Non-functional requirement", it not complete correct in term "functional" - example some characteristic: Security or Maintainability, shall be avoid and using "Quality requirement".
 ## 2.4 Bird's-eye view of Software Architecture
 
 Requirements Engineering and architecture design are two key factors for successful software development.
@@ -189,6 +206,10 @@ The task of the architect is to develop a blueprint for the system base on funct
 
 - **Design and implementation plan**
 	The **architect** is a **central point of contact** for the **system’s developers**. He **defines** the **system’s building blocks** as well as their **interfaces and interaction patterns**. He has to encourage the integration of new technologies and innovative solution approaches, and discuss them with the developers. He is in charge of the development, introduction, training, and reviewing of programming guidelines. He **assists** the **developers** in the **development of prototypes** and **sample solutions**, and **accelerates reuse of existing (partial) implementations**. He **explains the architecture**, **provides development specifications**, passes on his experience, and **carries out code reviews**. He also supports the testers. In an ideal situation, he even **defines testing conditions** and **specific test cases** for **testing specific architecture objectives**. He assists in the definition of **test sequences** and **dependencies**. Finally, he is the point of contact for **fault and error reports** that are **relevant to the architecture**. He is also the **central point of contact** for organizational roles such as **operations staff, security experts, and the like**.
+
+
+![[SummaryKeyTerm.png.png]]
+
 
 # 3. Designing Software Architectures
 

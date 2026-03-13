@@ -1,6 +1,6 @@
 Tag: #SecondBrain
 Status: #open, #unprocessed
-Related: [[Protocol (Computer Engineering)]]
+Related: [[Protocol (Computer Engineering)]], [[OSI model]]
 
 ---
 # Internet
@@ -8,7 +8,7 @@ Related: [[Protocol (Computer Engineering)]]
 Networtk layer
 https://en.wikipedia.org/wiki/Internet_layer
 
-OSI model 
+[[OSI model ]]
 https://en.wikipedia.org/wiki/OSI_model
 
 TCP/IP
