@@ -8,17 +8,14 @@ Related:
 
 ## Learning Operation System
 [[Operation system model]]
-[[OS Introduction]]
+[[OSTEP]]
 
-- [## Linux]()
+## Linux kernel
 [[Linux]]
 
 ## RTOS
 [[Realtime Operation System (RTOS)]]
 [[Zephyr Project]]
-
-## OS research for a changing world
-[[Composite OS]]
 
 ## BOOTLOADER
 [[Bootloader]]
@@ -41,6 +38,4 @@ Youtube:
 MIT Course:
 https://ocw.mit.edu/courses/6-828-operating-system-engineering-fall-2012/pages/lecture-notes-and-readings/
 
-Book and video course CS537 Operation System from UNIVERSITY OF WISCONSIN–MADISON - [[xv6]]:
-https://pages.cs.wisc.edu/~remzi/OSTEP/
-https://pages.cs.wisc.edu/~remzi/Classes/537/Fall2021/
+Book and video course CS537 Operation System from UNIVERSITY OF WISCONSIN–MADISON - [[xv6]]: [[OSTEP]]
