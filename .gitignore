@@ -8,3 +8,6 @@ __IGNORE_
 03_FilesSource/Documents/*
 03_FilesSource/OtherFiles/*
 05_TemporaryFolder*
+
+# tool files
+gcm-diagnose.log

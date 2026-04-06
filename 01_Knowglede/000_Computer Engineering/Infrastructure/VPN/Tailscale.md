@@ -18,16 +18,19 @@ Github of tailscale (Only Client):
 - https://github.com/tailscale/tailscale
 Server Host Open source (working with tailscale client)
 - [Headscale](https://github.com/juanfont/headscale) is an open source coordination server for Tailscale clients. It is independent from Tailscale.
-
+## Exit node:
+- https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/
 
 ## Device connection:
 https://tailscale.com/docs/reference/device-connectivity
 
-## Exit node:
-- https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/
+
 
 ## DERP servers:
 https://tailscale.com/docs/reference/derp-servers
+
+## Peer relays
+https://tailscale.com/blog/peer-relays-international-networks
 
 ---
 # References
