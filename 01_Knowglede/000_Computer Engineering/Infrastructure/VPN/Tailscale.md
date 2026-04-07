@@ -1,11 +1,16 @@
 Tags: #SecondBrain 
 Status: #open, #unprocessed
-Related: [[Home Server]], [[Open Source]], [[VPN]]
+Related: [[Home Server]], [[Open Source]], [[Virtual Private Network (VPN)]], [[WireGuard]]
 
 ---
+## Alternative
+- Headscale
 
-### How tailscale works 
+
+## How tailscale works 
 - https://tailscale.com/blog/how-tailscale-works
+- explain of [[NAT traversal]], NAT hole punching
+
 
 ### Is Tailscale Open source?
 QA: https://tailscale.com/opensource
@@ -18,19 +23,24 @@ Github of tailscale (Only Client):
 - https://github.com/tailscale/tailscale
 Server Host Open source (working with tailscale client)
 - [Headscale](https://github.com/juanfont/headscale) is an open source coordination server for Tailscale clients. It is independent from Tailscale.
+
+
 ## Exit node:
 - https://tech.stonecharioteer.com/posts/2026/tailscale-exit-nodes/
+
+## Subnet router:
+
 
 ## Device connection:
 https://tailscale.com/docs/reference/device-connectivity
 
+### Relay peer
+- https://tailscale.com/blog/peer-relays-international-networks
+- https://tailscale.com/blog/peer-relays-ga
 
 
-## DERP servers:
+### DERP servers:
 https://tailscale.com/docs/reference/derp-servers
-
-## Peer relays
-https://tailscale.com/blog/peer-relays-international-networks
 
 ---
 # References
