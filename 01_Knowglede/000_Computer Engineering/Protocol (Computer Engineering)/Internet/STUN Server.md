@@ -1,14 +1,10 @@
 Tags: #SecondBrain 
 Status: #open, #unprocessed
-Related: [[Internet]]
+Related: [[NAT traversal]]
 
 ---
 
-https://check-host.net/
-https://wtfip.com/
-
-
-
+https://arphost.com/what-is-a-stun-server/
 
 
 
