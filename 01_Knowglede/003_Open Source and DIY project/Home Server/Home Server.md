@@ -6,7 +6,7 @@ Related:
 # Home Server
 
 OS:
-truenas-scale
+- https://www.truenas.com
 
 
 VM working on TrueNas:

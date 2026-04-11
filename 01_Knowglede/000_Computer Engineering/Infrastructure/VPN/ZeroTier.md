@@ -1,12 +1,10 @@
 Tags: #SecondBrain 
 Status: #open, #unprocessed
-Related: [[Internet]]
+Related: [[Virtual Private Network (VPN)]]
 
 ---
 
-https://check-host.net/
-https://wtfip.com/
-
+https://docs.zerotier.com/security/
 
 
 

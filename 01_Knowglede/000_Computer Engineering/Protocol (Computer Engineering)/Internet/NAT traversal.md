@@ -15,7 +15,6 @@ Good explain by [[Tailscale]] blog:
 	- [Tailscale blog, NAT traversal P1](https://tailscale.com/blog/nat-traversal-improvements-pt-1)
 	- [Tailscale blog, NAT traversal P2](https://tailscale.com/blog/nat-traversal-improvements-pt-2-cloud-environments)
 	- [Tailscale blog, NAT traversal P3](https://tailscale.com/blog/nat-traversal-improvements-pt3-looking-ahead)
-- 
 
 
 

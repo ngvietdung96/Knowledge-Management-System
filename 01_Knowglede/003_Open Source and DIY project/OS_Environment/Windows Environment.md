@@ -1,11 +1,9 @@
 Tags: #SecondBrain 
 Status: #open, #unprocessed
-Related: [[Internet]]
+Related: 
 
 ---
 
-https://check-host.net/
-https://wtfip.com/
 
 
 
