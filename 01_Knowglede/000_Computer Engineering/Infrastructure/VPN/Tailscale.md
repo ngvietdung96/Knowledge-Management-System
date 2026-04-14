@@ -42,6 +42,16 @@ https://tailscale.com/docs/reference/device-connectivity
 ### DERP servers:
 https://tailscale.com/docs/reference/derp-servers
 
+
+
+
+## Note
+
+STUN server
+derp3g.tailscale.com
+
+
+
 ---
 # References
 Official website:
