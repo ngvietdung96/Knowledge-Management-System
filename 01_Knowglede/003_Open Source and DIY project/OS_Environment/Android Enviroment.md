@@ -5,7 +5,6 @@ Related:
 ---
 # Android
 
-
 # Xiaomi
 
 ## Original ROM
@@ -19,6 +18,9 @@ Related:
 
 
 
+
+- https://github.com/MMRLApp/MMRL
+- https://github.com/Androidacy/MagiskModuleManager
 
 
 

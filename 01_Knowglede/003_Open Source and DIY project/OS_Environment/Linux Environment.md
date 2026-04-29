@@ -3,41 +3,69 @@ Status: #open, #unprocessed
 Related: [[Open Source]], [[Linux From Scratch]]
 
 ---
-
+Reference:
+- Arch wiki
+- CachyOS wiki
+- Gentoo wiki
+- Void linux
 # Base Distro
-Arch
-CachyOS (base on Arch): https://wiki.cachyos.org/
-
-
+- Arch
+	- CachyOS (base on Arch): https://wiki.cachyos.org/
+- Void linux: https://voidlinux.org/
+- Gentoo linux: 
+General
 https://wiki.archlinux.org/title/Laptop_Mode_Tools
 
-# Window Management
-- MangoWC:
-	- https://github.com/mangowm/mango
-	- yt guide: https://www.youtube.com/watch?v=Q1Jgw_q0gWE&t=312s
-- Niri:
-	- https://github.com/niri-wm/awesome-niri
-	- yt guide: https://www.youtube.com/watch?v=bjalAgAVIkc&t=529s
+# [[Bootloader]]
+- Limine bootloader: https://github.com/limine-bootloader/limine
+- Grub: 
+## Boot time
+- https://wiki.archlinux.org/title/Improving_performance/Boot_process
+- https://medium.com/@therealcomtom/reducing-linux-booting-time-b5d0a061e05a
+
+# Desktop Environment
+## Display Manager
+- https://wiki.archlinux.org/title/Display_manager
+- Text UI:
+	- Ly: https://codeberg.org/fairyglade/ly
+	- Lidm: https://github.com/javalsai/lidm
+- Graphical:
+	- ???
+## Window Management
+- X.org 
+	- i3wm:
+		- xrandr (manage monitor) 
+		- rofi
+		- xofi
+		- 
+- Wayland:
+	- https://wiki.gentoo.org/wiki/List_of_software_for_Wayland
+	- https://github.com/rcalixte/awesome-wayland
+	- Sway:
+	- MangoWC:
+		- https://github.com/mangowm/mango
+		- yt guide: https://www.youtube.com/watch?v=Q1Jgw_q0gWE&t=312s
+	- Niri:
+		- https://github.com/niri-wm/awesome-niri
+		- yt guide: https://www.youtube.com/watch?v=bjalAgAVIkc&t=529s
 
 # Battery optimize
 - https://wiki.archlinux.org/title/Power_management
 - https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate
-
-Tools:
-- https://github.com/TheAlexDev23/power-options
-
+- Tools:
+	- https://github.com/TheAlexDev23/power-options
 ## Undervoltage
 - https://wiki.archlinux.org/title/Undervolting_CPU
 
-# Boot time
-- https://wiki.archlinux.org/title/Improving_performance/Boot_process
-- https://medium.com/@therealcomtom/reducing-linux-booting-time-b5d0a061e05a
 
-# Moderm
+
+# Protocol
 - https://wiki.archlinux.org/title/ThinkPad_mobile_Internet
 
 # Virtual machine
 - QEMU:
+	- Good document (CachyOS): 
+		- https://wiki.cachyos.org/virtualization/qemu_and_vmm_setup/
 	- Intall: 
 		- [Lab](https://github.com/daveprowse/virtualization/blob/main/kvm/kvm-install-debian-12/kvm-install-debian-12.md)  [Deep Dive-KVM Installation to Debian 12](https://www.youtube.com/watch?v=GgAQw08zJzs)
 		- https://sysguides.com/install-kvm-on-linux/
@@ -56,27 +84,30 @@ Tools:
 
 # Browser 
 - Refer browser:
+	- Chromium:
 	- thorium: 
 	- zen: https://github.com/zen-browser/desktop
-
 - Enable GPU acceleration 
 	- https://wiki.archlinux.org/title/Chromium#Force_GPU_acceleration
 - Put Web running in RAM: [yt/link](https://www.youtube.com/watch?v=tGS6qkjv4oM&t=618s)
 	- https://wiki.archlinux.org/title/Profile-sync-daemon (refer guide)
 		https://wiki.archlinux.org/title/Chromium#Cache_in_tmpfs
 		https://wiki.archlinux.org/title/Firefox/Profile_on_RAM
+# File manager
+- https://wiki.archlinux.org/title/Lf
+# Screenshot
+flameshot: https://flameshot.org/docs/guide/faq/
 
-# AUR helper
+# Package manager
+## AUR helper
 - https://wiki.archlinux.org/title/AUR_helpers
-
-
-# Default apps
+## Default apps
 - https://wiki.archlinux.org/title/Default_applications
 
 
 # Network
 
-# Share network
+## Share network
 
 https://wiki.archlinux.org/title/Samba
 
@@ -89,15 +120,6 @@ mount:
 Package: gvfsd-smb
 `gio mount smb://truenas.local/folderShared`
 `mount at /run/user/1000/gvfs/smb-share:server=...`
-
-
-# File manager
-- https://wiki.archlinux.org/title/Lf
-
-# Screenshot
-flameshot: https://flameshot.org/docs/guide/faq/
-
-
 
 
 
