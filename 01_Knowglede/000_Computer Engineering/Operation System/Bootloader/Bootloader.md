@@ -30,7 +30,7 @@ Related: [[Microcontroller]]
 
 # Embedded linux
 [[U-boot]]
-[[Buildroot]]s
+[[Buildroot]]
 
 
 ![](https://www.youtube.com/watch?v=Jcan8YfLfLs)
