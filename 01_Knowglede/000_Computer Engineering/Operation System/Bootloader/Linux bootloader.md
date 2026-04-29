@@ -1,6 +1,6 @@
 Tags: #SecondBrain 
 Status: #open, #unprocessed
-Related: 
+Related: [[Linux Environment]]
 
 ---
 

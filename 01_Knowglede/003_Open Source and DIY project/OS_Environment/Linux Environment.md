@@ -15,6 +15,13 @@ Reference:
 - Gentoo linux: 
 General
 https://wiki.archlinux.org/title/Laptop_Mode_Tools
+## Arch
+ - CachyOS (base on Arch): https://wiki.cachyos.org/
+	- CachyOS recommend: [General system tweaks](https://wiki.cachyos.org/configuration/general_system_tweaks)
+> [!bug] unknow: Bellow make suppend crash
+> To enable RCU Lazy, add the following parameter to your kernel [cmdline](https://wiki.cachyos.org/configuration/boot_manager_configuration/) parameters list:
+> `rcutree.enable_rcu_lazy=1`
+- Arch recommend: https://wiki.archlinux.org/title/Laptop_Mode_Tools
 
 # [[Bootloader]]
 - Limine bootloader: https://github.com/limine-bootloader/limine
@@ -116,10 +123,14 @@ Upon startup avahi-daemon interprets its configuration file /etc/avahi/avahi-dae
 
 `smbclient //truenas.local/folderShared/ -U vdung`
 
-mount:
-Package: gvfsd-smb
-`gio mount smb://truenas.local/folderShared`
-`mount at /run/user/1000/gvfs/smb-share:server=...`
+Mount:
+- package: mount.cifs
+	- https://linuxvox.com/blog/mount-smb-share-on-linux/
+	- `sudo mount.cifs //smb-server/address /mount-folder/ -o username=your-user,password=your-pass`
+
+- package: gvfsd-smb
+	- `gio mount smb://truenas.local/folderShared`
+	- `mount at /run/user/1000/gvfs/smb-share:server=...`
 
 
 
