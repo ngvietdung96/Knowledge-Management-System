@@ -1,4 +1,8 @@
+Tags: #SecondBrain 
+Status: #open, #unprocessed
+Related: 
 
+---
 ![](https://www.youtube.com/watch?v=3uLDin9A9pc)
 
 # Motivation
@@ -17,3 +21,17 @@ ___
 ![](https://www.youtube.com/watch?v=FNJO1pZV-I8)
 
 ![](https://www.youtube.com/watch?v=u-XDOnSSUzI)
+
+
+
+
+
+
+
+
+
+---
+# References
+Official website:
+Wikipedia:
+Youtube:

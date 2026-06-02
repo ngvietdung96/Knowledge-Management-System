@@ -39,12 +39,11 @@ https://wiki.archlinux.org/title/Laptop_Mode_Tools
 - Graphical:
 	- ???
 ## Window Management
-- X.org 
+- X.org
 	- i3wm:
-		- xrandr (manage monitor) 
+		- xrandr (manage monitor)
 		- rofi
-		- xofi
-		- 
+	
 - Wayland:
 	- https://wiki.gentoo.org/wiki/List_of_software_for_Wayland
 	- https://github.com/rcalixte/awesome-wayland
@@ -55,19 +54,13 @@ https://wiki.archlinux.org/title/Laptop_Mode_Tools
 	- Niri:
 		- https://github.com/niri-wm/awesome-niri
 		- yt guide: https://www.youtube.com/watch?v=bjalAgAVIkc&t=529s
+## Clipboard
+- https://wiki.archlinux.org/title/Clipboard
+- https://ejmastnak.com/tutorials/arch/copy-paste/
 
-# Battery optimize
-- https://wiki.archlinux.org/title/Power_management
-- https://wiki.archlinux.org/title/Power_management/Suspend_and_hibernate
-- Tools:
-	- https://github.com/TheAlexDev23/power-options
-## Undervoltage
-- https://wiki.archlinux.org/title/Undervolting_CPU
+## Fish vs Zfs
+- https://fishshell.com/docs/current/language.html
 
-
-
-# Protocol
-- https://wiki.archlinux.org/title/ThinkPad_mobile_Internet
 
 # Virtual machine
 - QEMU:

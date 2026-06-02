@@ -1,3 +1,8 @@
+Tags: #SecondBrain 
+Status: #open, #unprocessed
+Related: 
+
+---
 
 # knowledge Note
 
@@ -42,3 +47,14 @@ Dopamine and serotonin can be though of exteroception, is focus on outside word 
 ![[The-Molecule-of-More-by-Daniel-Z.-Lieberman-Michael-E.-Long.pdf|Book: The Molecule of More ]]
 
 ![[Dopamine-nation-finding-balance-in-the-age-of-indulgence.pdf|Book: Dopamine nation: finding balance in the age of indulgence]]
+
+
+
+
+
+
+---
+# References
+Official website:
+Wikipedia:
+Youtube:
